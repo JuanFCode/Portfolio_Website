@@ -5,11 +5,11 @@
 :root {
     --header-height: 3rem;
     /*======================== COLORS ======================*/
-    --hue-color: 216;
+    --hue-color: 43;
 
     /* HSL color mode */
 
-    --first-color: hsl(var(--hue-color), 69%, 61%);
+    --first-color: hsl(var(--hue-color), 90.5%, 71.2%);
     --first-color-second: hsl(var(--hue-color), 69%, 61%);
     --first-color-alt: hsl(var(--hue-color), 57%, 53%);
     --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
@@ -267,7 +267,8 @@ img {
 }
 
 .home__blob-img {
-    width: 170px;
+    width: 280px;
+    
 
 }
 
@@ -348,6 +349,9 @@ align-items: center;
     border-radius: .5rem;
     justify-self: center;
     align-self: center;
+    margin-bottom: var(--mb-2-5);
+
+    
 }
 .about__description{
     text-align: center;
@@ -372,4 +376,8 @@ align-items: center;
 .about__info-name{
     display: block;
     text-align: center;
+}
+.about__buttons{
+display: flex;
+justify-content: center;
 }
