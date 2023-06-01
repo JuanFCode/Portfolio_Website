@@ -268,7 +268,7 @@ img {
 
 .home__blob-img {
     width: 280px;
-    
+
 
 }
 
@@ -292,7 +292,7 @@ img {
 }
 
 .home__scroll {
-    display:none;
+    display: none;
 }
 
 .home__scroll-button {
@@ -333,51 +333,108 @@ img {
 .button:hover {
     background-color: var(--first-color-alt);
 }
-.button__icon{
-font-size: 1.25rem;
-margin-left: var(--mb-0-5);
-transition: .2s;
+
+.button__icon {
+    font-size: 1.25rem;
+    margin-left: var(--mb-0-5);
+    transition: .2s;
 }
-.button--flex{
-display: inline-flex;
-align-items: center;
+
+.button--flex {
+    display: inline-flex;
+    align-items: center;
 }
 
 /*======================== ABOUT ======================*/
-.about__img{
-    width:200px;
+.about__img {
+    width: 200px;
     border-radius: .5rem;
     justify-self: center;
     align-self: center;
     margin-bottom: var(--mb-2-5);
 
-    
+
 }
-.about__description{
+
+.about__description {
     text-align: center;
     margin-bottom: var(--mb-2-5);
 }
-.about__info{
+
+.about__info {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: var(--mb-2-5);
 }
 
-.about__info-title{
+.about__info-title {
     font-size: var(--h2-font-size);
     font-weight: var(--font-semi-bold);
     color: var(--title-color);
 }
-.about__info-name{
+
+.about__info-name {
     font-size: var(--smaller-font-size);
 }
 
 .about__info-title,
-.about__info-name{
+.about__info-name {
     display: block;
     text-align: center;
 }
-.about__buttons{
-display: flex;
-justify-content: center;
+
+.about__buttons {
+    display: flex;
+    justify-content: center;
+}
+
+/*======================== SKILLS ======================*/
+.skills__container {
+    row-gap: 0;
+
+}
+.skills__header{
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--mb-2-5);
+cursor: pointer;    
+}
+
+.skills__icon,
+.skills__arrow{
+    font-size: 2rem;
+    color: var(--first-color);
+}
+.skills__icon{
+margin-right: var(--mb-0-75);
+}
+.skills__title{
+    font-size: var(--h3-font-size);
+}
+.skills__subtitle{
+    font-size: var(--small-font-size);
+    color: var(--text-color-light);
+}
+.skills__arrow{
+    margin-left: auto;
+    transition: .4s;
+}
+.skills__titles{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--mb-0-5);
+}
+.skills__name{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+.skills__bar,
+.skills__percentage{
+    height: 5px;
+    border-radius: .25rem;
+
+}
+.skills__bar{
+    background-color: var(--first-color-lighter);
+    
 }
