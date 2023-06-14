@@ -694,9 +694,15 @@ img {
 
 }
 
+<<<<<<< HEAD
 .services__modal-icon {
     margin-right: var(--mb-0-25);
 
+=======
+.services__modal-icon{
+    margin-right:var(--mb-0-25);
+    
+>>>>>>> maquetacio_desde_cero
 }
 
 /* Active modal */
